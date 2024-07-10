@@ -1,0 +1,6417 @@
+[
+    {
+        "id": "e737724fdc61a7cf",
+        "type": "tab",
+        "label": "MQTT_Handler",
+        "disabled": false,
+        "info": "working",
+        "env": []
+    },
+    {
+        "id": "c9438df407076a32",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "name": "vSECC info, IOs, & Cabinet data (for conn1&2)",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "50b9ceb087e0f962",
+            "23a0fa42dd7b8ae8",
+            "47b14c86f1108ac7",
+            "5a2c61a835bdea60",
+            "e2ae508c5a87a53d",
+            "4368d4465d122f23",
+            "13795cc20e11006e",
+            "8a4cf460e995e9dc",
+            "bed5aa9b84ab9f21",
+            "5e5b80fb26605d2d",
+            "f3b77ef8df082e6f",
+            "6c128e05574332b6",
+            "b51cc18da429b509",
+            "672ba9a72e9ec14b",
+            "8dcfa9a1719efb87",
+            "55cffa0df8d134ae",
+            "6edb6b5928a78e18",
+            "0135093328177fc4",
+            "1cb691a5a63e60c0",
+            "c3d174620a09291e",
+            "84cc5d2fc546a10c",
+            "88d8222f206705a8",
+            "95e9d92f0ee55838",
+            "b6d7686c5f8e4911",
+            "60255623f0ad8a0e",
+            "88b4de60bc263055"
+        ],
+        "x": 354,
+        "y": 1699,
+        "w": 1812,
+        "h": 1602
+    },
+    {
+        "id": "cbb968c43e9de3d4",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "name": "Connector1 topics >> DS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "51bc1dd6870ffde8",
+            "18aec14ee172fc43",
+            "362da0a6eb2f3e44",
+            "8befd5fcde33fdf2",
+            "326b6bda4eb4d46d",
+            "a9c48016e13251c4",
+            "111cc957e3ecb222",
+            "2a5ab3747c54865f"
+        ],
+        "x": 384,
+        "y": 73,
+        "w": 1048,
+        "h": 1454
+    },
+    {
+        "id": "a0e5578e0d714f89",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "name": "Connector2 topics >> DS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "151bac03be9df4a5",
+            "1a0f74760f511c62",
+            "3ff462c919ed9fa1",
+            "e74a2c0a233b7198",
+            "312f78a3cedf4ac8",
+            "32b8587bf084b4ab",
+            "3343ce0fb0f8c8b5",
+            "083b118b0192291c"
+        ],
+        "x": 1534,
+        "y": 73,
+        "w": 1118,
+        "h": 1454
+    },
+    {
+        "id": "f92ff984f0402e5a",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "name": "Connector 1: From DS >> MQTT Publishers",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "2f0eaf314b19bb0d",
+            "dd0dd36afe86816d",
+            "cd68767cdaecac65",
+            "a43fe7e20cb02da2",
+            "a9e49f5df71124ad",
+            "2580fc718b8b9e74",
+            "340749eb4149ea7d",
+            "5525fac4f02f463e",
+            "577454ddfe4245a1",
+            "8c12bf344f559b92",
+            "0b636e59c1f1677a",
+            "b756c607da989e3c",
+            "229cc29c9f750175",
+            "186e0f88d29262c5",
+            "c738275a7044401a",
+            "8049765b1d615e97",
+            "b951886dda8a1835",
+            "e68f8b1f7211e69f",
+            "020f533482cfbdb9",
+            "da86dbf769d131e0",
+            "9afa72c60a551bf4",
+            "2d728f0eb0c7755d",
+            "8dd46a1d9ca2ceda",
+            "4c9c55f884c3072b",
+            "79c50e4190336d39",
+            "f9708b5b8a0e83ca",
+            "ab932ebf80ad7e48",
+            "7549b75ba9a3c019",
+            "95cc95f5abcb6bc4",
+            "dbfd3f69fbf1cff0",
+            "b03961ee3dd266bf",
+            "d727b90653b5fcf4",
+            "a0ebdeb6d3d4cb78",
+            "9aa8dea6bebab929",
+            "de67bd9e19b4ce1b"
+        ],
+        "x": 174,
+        "y": 3439,
+        "w": 1538,
+        "h": 1248
+    },
+    {
+        "id": "6f23afe4bda58826",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2cc833d0671c01ab",
+            "2215ba3f76a15b79",
+            "4da6d19e1ad7e866",
+            "f1d02c70e5e00233"
+        ],
+        "x": 2734,
+        "y": 4399,
+        "w": 432,
+        "h": 242
+    },
+    {
+        "id": "077ae9c42f8bec49",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "name": "Connector 2: From DS >> MQTT Publishers",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "074c60de6caa53da",
+            "f8e6d68ffef98c4f",
+            "e485f4b074eb7bfd",
+            "86eb59b55565247a",
+            "a854d36c7ccc0961",
+            "964940e5566996d0",
+            "e85ced6b74e46e01",
+            "58d6807caf240490",
+            "d5b95b150d7a3060",
+            "fdaf2ceb4ef5f096",
+            "6265b784fbed70db",
+            "1a1dfcfcdb4b2a94",
+            "9e543cf663f639bd",
+            "0c05a98e03efee99",
+            "17e553d34c1719f7",
+            "7c07c6a92392c75a",
+            "81879ab1d790a2c5",
+            "ec413b9174c7a573",
+            "a5d2489ede77f2d9",
+            "0e567cbda861fc73",
+            "4b7de952c4db4518",
+            "9b687d4f343f2a4b",
+            "8a3a602e628ce2e1",
+            "039a4f19fff07451",
+            "baa155067977360e",
+            "7f9b2a7f6fa9b0cf",
+            "d23eda1afdf0cf4c",
+            "0b2fc63de80b8d8f",
+            "59fa8895b58de295",
+            "da689d8cc7328ac8",
+            "3de61af08ac7db65",
+            "d3ead86b6de2a15b"
+        ],
+        "x": 1794,
+        "y": 3459,
+        "w": 1378,
+        "h": 1202
+    },
+    {
+        "id": "3454d78d8b232e83",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "55df09b00658c7ec",
+            "f8a20270e449a596"
+        ],
+        "x": 1234,
+        "y": 4019,
+        "w": 432,
+        "h": 122
+    },
+    {
+        "id": "cd7c3df87bc024fb",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "36a565041adb46ef",
+            "33be1e0e826227bb"
+        ],
+        "x": 2674,
+        "y": 4079,
+        "w": 432,
+        "h": 122
+    },
+    {
+        "id": "e8353e2fe1a0e43b",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b4d9aa5168bba3f1",
+            "15bdc1351398a22b",
+            "0fafd633b5b410c6",
+            "03d92f5bb4b6a8f8",
+            "65e07a60696dfb9d",
+            "fbe2cecf73c2ce3f"
+        ],
+        "x": 1694,
+        "y": 2219,
+        "w": 372,
+        "h": 282
+    },
+    {
+        "id": "362da0a6eb2f3e44",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "cbb968c43e9de3d4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "537651fdb49684eb",
+            "eb961fb541881e0b",
+            "034f294eeafabe96",
+            "a4d21a4df8c4a3f8",
+            "549e4ddee2f95d24",
+            "f3dfd749bda2f402",
+            "da93af0c91d42e9f",
+            "182dd5a7f849f630",
+            "5423d504245074a0"
+        ],
+        "x": 954,
+        "y": 959,
+        "w": 452,
+        "h": 402
+    },
+    {
+        "id": "8befd5fcde33fdf2",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "cbb968c43e9de3d4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a063ce44e785b74c",
+            "9b8d46a0b8eb14f9",
+            "e9259ef5f4e6bdfc",
+            "01798ba587fa5d06",
+            "14144ee1a6e048b0",
+            "aa6dbf3d39fd1f52",
+            "3bb720e569ecf8a5"
+        ],
+        "x": 954,
+        "y": 99,
+        "w": 352,
+        "h": 322
+    },
+    {
+        "id": "326b6bda4eb4d46d",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "cbb968c43e9de3d4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "55f686dee6d32ec8",
+            "cff80557b72b0f21",
+            "798acac1cba22f1f",
+            "de1ace380337ce57",
+            "84a8674be8fd82ca",
+            "b6fc575d9a2a2d0f",
+            "74ba16cdfde09929",
+            "d4c0c9164a97e46d",
+            "af38938390e78309",
+            "84028c88ad09e3e3",
+            "7e90be7073d53971"
+        ],
+        "x": 954,
+        "y": 459,
+        "w": 412,
+        "h": 482
+    },
+    {
+        "id": "8a4cf460e995e9dc",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a0da427844168518",
+            "37e4aa2b2900f0b6",
+            "0648a5505670a7b3",
+            "5cc60debfb805696",
+            "61775bdd7ee5268a",
+            "a9dd984c9168fcf0"
+        ],
+        "x": 1674,
+        "y": 1799,
+        "w": 332,
+        "h": 282
+    },
+    {
+        "id": "bed5aa9b84ab9f21",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "13303f7d2dce3406",
+            "9bd9e66b23810be7",
+            "628366daa4cdf81d",
+            "baf8728ce5a1f000",
+            "18bf5f6ada476a9b",
+            "63bcb49a57127964"
+        ],
+        "x": 1134,
+        "y": 2339,
+        "w": 392,
+        "h": 282
+    },
+    {
+        "id": "3ff462c919ed9fa1",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "a0e5578e0d714f89",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3c20f7eb4c61d65e",
+            "9f54677fc4c3b4a0",
+            "12b4a8eb0dacf665",
+            "e1a052985e57ab19",
+            "227e35db2a3defb6",
+            "2cfd96e5cadcf894",
+            "e2d71b4d2f5dae95",
+            "fe60b14c3a0816a3",
+            "2e928b4bcebde937"
+        ],
+        "x": 2174,
+        "y": 939,
+        "w": 452,
+        "h": 402
+    },
+    {
+        "id": "e74a2c0a233b7198",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "a0e5578e0d714f89",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ffa83235294a87c0",
+            "eda2a44478c16690",
+            "6a574963a1659308",
+            "edba8be3556c4993",
+            "bd63e3a895b102c3",
+            "37a666b0224f9146",
+            "46fce40f2f5ec6a6"
+        ],
+        "x": 2174,
+        "y": 99,
+        "w": 352,
+        "h": 322
+    },
+    {
+        "id": "312f78a3cedf4ac8",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "a0e5578e0d714f89",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2688114f322ae2bd",
+            "10c89ddacd8f6af2",
+            "219b0f6cb87d679f",
+            "b6ef3cf5ee26edc4",
+            "d2276a26ed7fe5c8",
+            "72243e59bc64ca6a",
+            "7f5acb16024acabe",
+            "e84e84d0f6781608",
+            "5fdda7511f54f284",
+            "1c2083b40b1d8ae9",
+            "8277eae8b37849ec"
+        ],
+        "x": 2174,
+        "y": 439,
+        "w": 412,
+        "h": 482
+    },
+    {
+        "id": "111cc957e3ecb222",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "cbb968c43e9de3d4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c748039a958fc27b",
+            "e3b819d863618ba4"
+        ],
+        "x": 954,
+        "y": 1379,
+        "w": 432,
+        "h": 122
+    },
+    {
+        "id": "3343ce0fb0f8c8b5",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "a0e5578e0d714f89",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "93fe43aa97eb47cc",
+            "0850222be17b2d30"
+        ],
+        "x": 2174,
+        "y": 1379,
+        "w": 432,
+        "h": 122
+    },
+    {
+        "id": "2580fc718b8b9e74",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d895f6b2d9f36567",
+            "2433a0d995a365f9",
+            "405c17d21602f090"
+        ],
+        "x": 1314,
+        "y": 3779,
+        "w": 312,
+        "h": 182
+    },
+    {
+        "id": "340749eb4149ea7d",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9215d608114f8b87",
+            "6bea36a18d232477",
+            "edd0bebcc01f4847",
+            "2a9d228db97832e1"
+        ],
+        "x": 1354,
+        "y": 3539,
+        "w": 272,
+        "h": 222
+    },
+    {
+        "id": "0b636e59c1f1677a",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7a1b3a0b5435f434",
+            "cafe57e7c3b26fe2",
+            "5bc653ae15997a4a",
+            "7662a1865c29e4a3"
+        ],
+        "x": 1234,
+        "y": 4419,
+        "w": 432,
+        "h": 242
+    },
+    {
+        "id": "b756c607da989e3c",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "92abf1938777e077",
+            "2fb9c013ed5418a3"
+        ],
+        "x": 1234,
+        "y": 4199,
+        "w": 452,
+        "h": 122
+    },
+    {
+        "id": "81879ab1d790a2c5",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e6455c61ba061e0e",
+            "65604f085a265d96",
+            "6a040c3764203535"
+        ],
+        "x": 2834,
+        "y": 3839,
+        "w": 312,
+        "h": 182
+    },
+    {
+        "id": "ec413b9174c7a573",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4c78f2e7b04baf9d",
+            "ab9e8b65b810bea3",
+            "55640583b3201328",
+            "657c7d8115081af4"
+        ],
+        "x": 2834,
+        "y": 3599,
+        "w": 292,
+        "h": 222
+    },
+    {
+        "id": "a5d2489ede77f2d9",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "83390f03be4858a1",
+            "23a602b23e2ce212"
+        ],
+        "x": 2694,
+        "y": 4259,
+        "w": 452,
+        "h": 122
+    },
+    {
+        "id": "b6d7686c5f8e4911",
+        "type": "group",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "097a35bc7a50ec39",
+            "60fdba84194599b0",
+            "e34b29628ed0f594",
+            "187c6c3f5670203f"
+        ],
+        "x": 1134,
+        "y": 2639,
+        "w": 332,
+        "h": 202
+    },
+    {
+        "id": "5a2c61a835bdea60",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "x": 620,
+        "y": 2160,
+        "wires": [
+            [
+                "50b9ceb087e0f962",
+                "23a0fa42dd7b8ae8",
+                "47b14c86f1108ac7",
+                "f3b77ef8df082e6f"
+            ]
+        ]
+    },
+    {
+        "id": "cd68767cdaecac65",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "x": 1260,
+        "y": 3720,
+        "wires": [
+            [
+                "edd0bebcc01f4847"
+            ]
+        ]
+    },
+    {
+        "id": "a43fe7e20cb02da2",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "x": 1140,
+        "y": 3860,
+        "wires": [
+            [
+                "2433a0d995a365f9"
+            ]
+        ]
+    },
+    {
+        "id": "a9e49f5df71124ad",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "x": 1140,
+        "y": 3920,
+        "wires": [
+            [
+                "405c17d21602f090"
+            ]
+        ]
+    },
+    {
+        "id": "186e0f88d29262c5",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "x": 1120,
+        "y": 4500,
+        "wires": [
+            [
+                "7a1b3a0b5435f434"
+            ]
+        ]
+    },
+    {
+        "id": "577454ddfe4245a1",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "x": 1060,
+        "y": 4560,
+        "wires": [
+            [
+                "cafe57e7c3b26fe2"
+            ]
+        ]
+    },
+    {
+        "id": "8c12bf344f559b92",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "x": 1080,
+        "y": 4620,
+        "wires": [
+            [
+                "5bc653ae15997a4a"
+            ]
+        ]
+    },
+    {
+        "id": "229cc29c9f750175",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "x": 1160,
+        "y": 4280,
+        "wires": [
+            [
+                "92abf1938777e077"
+            ]
+        ]
+    },
+    {
+        "id": "c738275a7044401a",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "x": 1240,
+        "y": 3620,
+        "wires": [
+            [
+                "2a9d228db97832e1"
+            ]
+        ]
+    },
+    {
+        "id": "f8e6d68ffef98c4f",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "x": 2780,
+        "y": 3780,
+        "wires": [
+            [
+                "4c78f2e7b04baf9d"
+            ]
+        ]
+    },
+    {
+        "id": "e485f4b074eb7bfd",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "x": 2780,
+        "y": 3920,
+        "wires": [
+            [
+                "e6455c61ba061e0e"
+            ]
+        ]
+    },
+    {
+        "id": "86eb59b55565247a",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "x": 2780,
+        "y": 3980,
+        "wires": [
+            [
+                "6a040c3764203535"
+            ]
+        ]
+    },
+    {
+        "id": "964940e5566996d0",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "x": 2700,
+        "y": 4620,
+        "wires": [
+            [
+                "4da6d19e1ad7e866"
+            ]
+        ]
+    },
+    {
+        "id": "e85ced6b74e46e01",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "x": 2680,
+        "y": 4580,
+        "wires": [
+            [
+                "2215ba3f76a15b79"
+            ]
+        ]
+    },
+    {
+        "id": "58d6807caf240490",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "x": 2680,
+        "y": 4500,
+        "wires": [
+            [
+                "2cc833d0671c01ab"
+            ]
+        ]
+    },
+    {
+        "id": "17e553d34c1719f7",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "x": 2780,
+        "y": 3680,
+        "wires": [
+            [
+                "657c7d8115081af4"
+            ]
+        ]
+    },
+    {
+        "id": "f230534b03ddc4c7",
+        "type": "junction",
+        "z": "e737724fdc61a7cf",
+        "x": 1140,
+        "y": 4100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "51bc1dd6870ffde8",
+        "type": "switch",
+        "z": "e737724fdc61a7cf",
+        "g": "cbb968c43e9de3d4",
+        "name": "Connector1 main parameters",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/ev/evccid",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/ev/tariff_id",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/ev/cp_state",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/ev/ev_error_code",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/ev/soc",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/ev/time_to_full_soc",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/em/measurement_control",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/em/transferred_energy",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/em/log",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/pe/measured_voltage",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/pe/measured_current",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/ocpp/transaction_id",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/ocpp/ev_authorization_token",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/ocpp/cost",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/status/charging_authorization_state",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/status/evse_id_string",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/status/charging_session_state",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/status/charging_standard",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/status/components/active_failures",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/status/availability",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/status/components/report_failure",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/status/components/report_resolution",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/preview/start_charging_reinit_ev",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/1/preview/external_authorization",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 24,
+        "x": 600,
+        "y": 780,
+        "wires": [
+            [
+                "a063ce44e785b74c"
+            ],
+            [
+                "9b8d46a0b8eb14f9"
+            ],
+            [
+                "e9259ef5f4e6bdfc"
+            ],
+            [
+                "01798ba587fa5d06"
+            ],
+            [
+                "14144ee1a6e048b0"
+            ],
+            [
+                "aa6dbf3d39fd1f52"
+            ],
+            [
+                "55f686dee6d32ec8"
+            ],
+            [
+                "cff80557b72b0f21"
+            ],
+            [
+                "7e90be7073d53971"
+            ],
+            [
+                "798acac1cba22f1f"
+            ],
+            [
+                "de1ace380337ce57"
+            ],
+            [
+                "84a8674be8fd82ca"
+            ],
+            [
+                "b6fc575d9a2a2d0f"
+            ],
+            [
+                "74ba16cdfde09929"
+            ],
+            [
+                "537651fdb49684eb"
+            ],
+            [
+                "eb961fb541881e0b"
+            ],
+            [
+                "034f294eeafabe96"
+            ],
+            [
+                "a4d21a4df8c4a3f8"
+            ],
+            [
+                "549e4ddee2f95d24"
+            ],
+            [
+                "f3dfd749bda2f402"
+            ],
+            [
+                "da93af0c91d42e9f"
+            ],
+            [
+                "182dd5a7f849f630"
+            ],
+            [
+                "c748039a958fc27b"
+            ],
+            [
+                "e3b819d863618ba4"
+            ]
+        ]
+    },
+    {
+        "id": "3dfc4c8c615cdc92",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "name": "MQTT Handler",
+        "info": " - MQTT Topics >> Data structure\n###  The data coming from MQTT topics of various\n### info such as connector1,connector2,cabinet(ev data, ocpp data,HMI)",
+        "x": 460,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "50b9ceb087e0f962",
+        "type": "switch",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "Temperature I/Ps (1 ~ 9) Unit: Degrees Celsius  🌡(°C)",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/1/temperature",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/2/temperature",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/3/temperature",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/4/temperature",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/5/temperature",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/6/temperature",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/7/temperature",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/8/temperature",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/9/temperature",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 9,
+        "x": 1080,
+        "y": 1920,
+        "wires": [
+            [],
+            [],
+            [],
+            [
+                "4368d4465d122f23"
+            ],
+            [
+                "5cc60debfb805696"
+            ],
+            [
+                "0648a5505670a7b3"
+            ],
+            [
+                "37e4aa2b2900f0b6"
+            ],
+            [
+                "a0da427844168518"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "23a0fa42dd7b8ae8",
+        "type": "switch",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "Temperature I/Ps (1 ~ 9) ,Resistances> unit: Ὼ",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/1/resistance",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/2/resistance",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/3/resistance",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/4/resistance",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/5/resistance",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/6/resistance",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/7/resistance",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/8/resistance",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/t_in/9/resistance",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 9,
+        "x": 1060,
+        "y": 2160,
+        "wires": [
+            [],
+            [],
+            [],
+            [
+                "60255623f0ad8a0e"
+            ],
+            [
+                "03d92f5bb4b6a8f8"
+            ],
+            [
+                "0fafd633b5b410c6"
+            ],
+            [
+                "15bdc1351398a22b"
+            ],
+            [
+                "b4d9aa5168bba3f1"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "47b14c86f1108ac7",
+        "type": "switch",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "Dig. I/Ps (1~8)",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "vsecc/io/d_in/1/value",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/d_in/2/value",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/signal/connector_1_start",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/d_in/3/value",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/signal/connector_1_stop",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/d_in/4/value",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/signal/panto_up",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/d_in/5/value",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/signal/panto_down",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/d_in/6/value ",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/signal/panto_err",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/d_in/7/value",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/signal/connector_2_start",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/d_in/8/value",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/io/signal/connector_2_stop",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 15,
+        "x": 940,
+        "y": 2540,
+        "wires": [
+            [
+                "baf8728ce5a1f000"
+            ],
+            [
+                "18bf5f6ada476a9b"
+            ],
+            [],
+            [
+                "628366daa4cdf81d"
+            ],
+            [],
+            [
+                "63bcb49a57127964"
+            ],
+            [],
+            [
+                "60fdba84194599b0"
+            ],
+            [],
+            [],
+            [],
+            [
+                "e34b29628ed0f594"
+            ],
+            [],
+            [
+                "187c6c3f5670203f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a063ce44e785b74c",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "8befd5fcde33fdf2",
+        "name": "vsecc.connector1.ev.evccid",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.ev.evccid",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.ev.evccid",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9b8d46a0b8eb14f9",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "8befd5fcde33fdf2",
+        "name": "vsecc.connector1.ev.tariff_id",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.ev.tariff_id",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.ev.tariff_id",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e9259ef5f4e6bdfc",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "8befd5fcde33fdf2",
+        "name": "vsecc.connector1.ev.cp_state",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.ev.cp_state",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.ev.cp_state",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "01798ba587fa5d06",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "8befd5fcde33fdf2",
+        "name": "vsecc.connector1.ev.ev_error_code",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.ev.ev_error_code",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.ev.ev_error_code",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1120,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "14144ee1a6e048b0",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "8befd5fcde33fdf2",
+        "name": "vsecc.connector1.ev.soc",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.ev.soc",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.ev.soc",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1090,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aa6dbf3d39fd1f52",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "8befd5fcde33fdf2",
+        "name": "vsecc.connector1.ev.time_to_full_soc",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.ev.time_to_full_soc",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.ev.time_to_full_soc",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1130,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "55f686dee6d32ec8",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "326b6bda4eb4d46d",
+        "name": "vsecc.connector1.em.measurement_control",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.em.measurement_control",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.em.measurement_control",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1150,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cff80557b72b0f21",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "326b6bda4eb4d46d",
+        "name": "vsecc.connector1.em.transferred_energy",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.em.transferred_energy",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.em.transferred_energy",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1140,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "798acac1cba22f1f",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "326b6bda4eb4d46d",
+        "name": "vsecc.connector1.pe.measured_voltage",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.pe.measured_voltage",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.pe.measured_voltage",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1140,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "de1ace380337ce57",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "326b6bda4eb4d46d",
+        "name": "vsecc.connector1.pe.measured_current",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.pe.measured_current",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.pe.measured_current",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1140,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "84a8674be8fd82ca",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "326b6bda4eb4d46d",
+        "name": "vsecc.connector1.ocpp.transaction_id",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.ocpp.transaction_id",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.ocpp.transaction_id",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1130,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b6fc575d9a2a2d0f",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "326b6bda4eb4d46d",
+        "name": "vsecc.connector1.ocpp.ev_authorization_token",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.ocpp.ev_authorization_token",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.ocpp.ev_authorization_token",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1160,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "537651fdb49684eb",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "362da0a6eb2f3e44",
+        "name": "vsecc.connector1.status.charging_authorization_state",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.status.charging_authorization_state",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.status.charging_authorization_state",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1180,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eb961fb541881e0b",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "362da0a6eb2f3e44",
+        "name": "vsecc.connector1.status.evse_id_string",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.status.evse_id_string",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.status.evse_id_string",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1140,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "034f294eeafabe96",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "362da0a6eb2f3e44",
+        "name": "vsecc.connector1.status.charging_session_state",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.status.charging_session_state",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.status.charging_session_state",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1160,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a4d21a4df8c4a3f8",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "362da0a6eb2f3e44",
+        "name": "vsecc.connector1.status.charging_standard",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.status.charging_standard",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.status.charging_standard",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1150,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "549e4ddee2f95d24",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "362da0a6eb2f3e44",
+        "name": "vsecc.connector1.status.components.active_failures",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.status.components.active_failures",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.status.components.active_failures",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1180,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f3dfd749bda2f402",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "362da0a6eb2f3e44",
+        "name": "vsecc.connector1.status.availability",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.status.availability",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.status.availability",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1120,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da93af0c91d42e9f",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "d": true,
+        "g": "362da0a6eb2f3e44",
+        "name": "vsecc.connector1.status.components.report_failure",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.status.components.report_failure",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.status.components.report_failure",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1170,
+        "y": 1280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "182dd5a7f849f630",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "d": true,
+        "g": "362da0a6eb2f3e44",
+        "name": "vsecc.connector1.status.components.report_resolution",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.status.components.report_resolution",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.status.components.report_resolution",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1180,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "74ba16cdfde09929",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "326b6bda4eb4d46d",
+        "name": "vsecc.connector1.ocpp.cost",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.ocpp.cost",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.ocpp.cost",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3bb720e569ecf8a5",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "8befd5fcde33fdf2",
+        "name": "EV Data",
+        "info": "",
+        "x": 1060,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "d4c0c9164a97e46d",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "326b6bda4eb4d46d",
+        "name": "EM ( Energy Meter )",
+        "info": "Energy Meter",
+        "x": 1130,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "af38938390e78309",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "326b6bda4eb4d46d",
+        "name": "PE",
+        "info": "Power electronics",
+        "x": 1110,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "84028c88ad09e3e3",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "326b6bda4eb4d46d",
+        "name": "OCPP",
+        "info": "OCPP: Open Charge Point Protocol",
+        "x": 1110,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "5423d504245074a0",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "362da0a6eb2f3e44",
+        "name": "Status",
+        "info": "Status",
+        "x": 1110,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "a0da427844168518",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "8a4cf460e995e9dc",
+        "name": "vsecc.io.t_in.gun1_temp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.io.t_in.gun1_temp",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.io.t_in.gun1_temp",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1810,
+        "y": 2040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "37e4aa2b2900f0b6",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "8a4cf460e995e9dc",
+        "name": "vsecc.io.t_in.cable1_temp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.io.t_in.cable1_temp",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.io.t_in.cable1_temp",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1810,
+        "y": 2000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0648a5505670a7b3",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "8a4cf460e995e9dc",
+        "name": "vsecc.io.t_in.gun2_temp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.io.t_in.gun2_temp",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.io.t_in.gun2_temp",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1810,
+        "y": 1920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5cc60debfb805696",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "8a4cf460e995e9dc",
+        "name": "vsecc.io.t_in.cable2_temp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.io.t_in.cable2_temp",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.io.t_in.cable2_temp",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1810,
+        "y": 1880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e2ae508c5a87a53d",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "All IOs ( Din,Dout,TempIN ) For Connector 1, 2 & Cabinet",
+        "info": "",
+        "x": 590,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "61775bdd7ee5268a",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "8a4cf460e995e9dc",
+        "name": "Connector2 (Gun& Cable Temp)",
+        "info": "",
+        "x": 1850,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "13303f7d2dce3406",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "bed5aa9b84ab9f21",
+        "name": "Connector2  (DC contactor & IMD status)",
+        "info": "DC contactor feedback and \nIMD status digital inputs",
+        "x": 1340,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "a9dd984c9168fcf0",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "8a4cf460e995e9dc",
+        "name": "Connector1 (Gun& Cable Temp)",
+        "info": "",
+        "x": 1850,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "9bd9e66b23810be7",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "bed5aa9b84ab9f21",
+        "name": "Connector1 (DC contactor & IMD status)",
+        "info": "DC contactor feedback and \nIMD status digital inputs",
+        "x": 1340,
+        "y": 2500,
+        "wires": []
+    },
+    {
+        "id": "4368d4465d122f23",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "vsecc.io.t_in.cabinet_temp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.io.t_in.cabinet_temp",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.io.t_in.cabinet_temp",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1840,
+        "y": 1780,
+        "wires": [
+            [
+                "88b4de60bc263055"
+            ]
+        ]
+    },
+    {
+        "id": "13795cc20e11006e",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "Charger Cabinet Temperature",
+        "info": "",
+        "x": 1840,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "187c6c3f5670203f",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "b6d7686c5f8e4911",
+        "name": "vsecc.io.d_in.emergency_switch_fb",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.io.d_in.emergency_switch_fb",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.io.d_in.emergency_switch_fb",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1300,
+        "y": 2800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "60fdba84194599b0",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "b6d7686c5f8e4911",
+        "name": "vsecc.io.d_in.spd_cb_status",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.io.d_in.spd_cb_status",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.io.d_in.spd_cb_status",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 2720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e34b29628ed0f594",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "b6d7686c5f8e4911",
+        "name": "vsecc.io.d_in.intrusion_detection",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.io.d_in.intrusion_detection",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.io.d_in.intrusion_detection",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 2760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "097a35bc7a50ec39",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "b6d7686c5f8e4911",
+        "name": "Charger Cabinet Detections",
+        "info": "Circuit breaker feedback\nCabinet Door Open/Close detection i.e Intrusion detection\nCabinet Emergency switch feedback \n",
+        "x": 1280,
+        "y": 2680,
+        "wires": []
+    },
+    {
+        "id": "18aec14ee172fc43",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "cbb968c43e9de3d4",
+        "name": "Connector1",
+        "info": "#  -  Connector1 MQTT Topics",
+        "x": 590,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "151bac03be9df4a5",
+        "type": "switch",
+        "z": "e737724fdc61a7cf",
+        "g": "a0e5578e0d714f89",
+        "name": "Connector2 main parameters",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/ev/evccid",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/ev/tariff_id",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/ev/cp_state",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/ev/ev_error_code",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/ev/soc",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/ev/time_to_full_soc",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/em/measurement_control",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/em/transferred_energy",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/em/log",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/pe/measured_voltage",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/pe/measured_current",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/ocpp/transaction_id",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/ocpp/ev_authorization_token",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/ocpp/cost",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/status/charging_authorization_state",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/status/evse_id_string",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/status/charging_session_state",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/status/charging_standard",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/status/components/active_failures",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/status/availability",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/status/components/report_failure",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/status/components/report_resolution",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/preview/start_charging_reinit_ev",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/connector/2/preview/external_authorization",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 24,
+        "x": 1820,
+        "y": 780,
+        "wires": [
+            [
+                "ffa83235294a87c0"
+            ],
+            [
+                "eda2a44478c16690"
+            ],
+            [
+                "6a574963a1659308"
+            ],
+            [
+                "edba8be3556c4993"
+            ],
+            [
+                "bd63e3a895b102c3"
+            ],
+            [
+                "37a666b0224f9146"
+            ],
+            [
+                "2688114f322ae2bd"
+            ],
+            [
+                "10c89ddacd8f6af2"
+            ],
+            [
+                "8277eae8b37849ec"
+            ],
+            [
+                "219b0f6cb87d679f"
+            ],
+            [
+                "b6ef3cf5ee26edc4"
+            ],
+            [
+                "d2276a26ed7fe5c8"
+            ],
+            [
+                "72243e59bc64ca6a"
+            ],
+            [
+                "7f5acb16024acabe"
+            ],
+            [
+                "3c20f7eb4c61d65e"
+            ],
+            [
+                "9f54677fc4c3b4a0"
+            ],
+            [
+                "12b4a8eb0dacf665"
+            ],
+            [
+                "e1a052985e57ab19"
+            ],
+            [
+                "227e35db2a3defb6"
+            ],
+            [
+                "2cfd96e5cadcf894"
+            ],
+            [
+                "e2d71b4d2f5dae95"
+            ],
+            [
+                "fe60b14c3a0816a3"
+            ],
+            [
+                "93fe43aa97eb47cc"
+            ],
+            [
+                "0850222be17b2d30"
+            ]
+        ]
+    },
+    {
+        "id": "1a0f74760f511c62",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "a0e5578e0d714f89",
+        "name": "Connector2",
+        "info": "#  -  Connector2 MQTT Topics",
+        "x": 1810,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "3c20f7eb4c61d65e",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "3ff462c919ed9fa1",
+        "name": "vsecc.connector2.status.charging_authorization_state",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.status.charging_authorization_state",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.status.charging_authorization_state",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2400,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9f54677fc4c3b4a0",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "3ff462c919ed9fa1",
+        "name": "vsecc.connector2.status.evse_id_string",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.status.evse_id_string",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.status.evse_id_string",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2360,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "12b4a8eb0dacf665",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "3ff462c919ed9fa1",
+        "name": "vsecc.connector2.status.charging_session_state",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.status.charging_session_state",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.status.charging_session_state",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2380,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e1a052985e57ab19",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "3ff462c919ed9fa1",
+        "name": "vsecc.connector2.status.charging_standard",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.status.charging_standard",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.status.charging_standard",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2370,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "227e35db2a3defb6",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "3ff462c919ed9fa1",
+        "name": "vsecc.connector2.status.components.active_failures",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.status.components.active_failures",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.status.components.active_failures",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2400,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2cfd96e5cadcf894",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "3ff462c919ed9fa1",
+        "name": "vsecc.connector2.status.availability",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.status.availability",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.status.availability",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2340,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e2d71b4d2f5dae95",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "3ff462c919ed9fa1",
+        "name": "vsecc.connector2.status.components.report_failure",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.status.components.report_failure",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.status.components.report_failure",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2390,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fe60b14c3a0816a3",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "3ff462c919ed9fa1",
+        "name": "vsecc.connector2.status.components.report_resolution",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.status.components.report_resolution",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.status.components.report_resolution",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2400,
+        "y": 1300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2e928b4bcebde937",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "3ff462c919ed9fa1",
+        "name": "Status",
+        "info": "Status",
+        "x": 2330,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "ffa83235294a87c0",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "e74a2c0a233b7198",
+        "name": "vsecc.connector2.ev.evccid",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.ev.evccid",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.ev.evccid",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2320,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eda2a44478c16690",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "e74a2c0a233b7198",
+        "name": "vsecc.connector2.ev.tariff_id",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.ev.tariff_id",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.ev.tariff_id",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2320,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6a574963a1659308",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "e74a2c0a233b7198",
+        "name": "vsecc.connector2.ev.cp_state",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.ev.cp_state",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.ev.cp_state",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2320,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "edba8be3556c4993",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "e74a2c0a233b7198",
+        "name": "vsecc.connector2.ev.ev_error_code",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.ev.ev_error_code",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.ev.ev_error_code",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2340,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bd63e3a895b102c3",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "e74a2c0a233b7198",
+        "name": "vsecc.connector2.ev.soc",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.ev.soc",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.ev.soc",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2310,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "37a666b0224f9146",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "e74a2c0a233b7198",
+        "name": "vsecc.connector2.ev.time_to_full_soc",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.ev.time_to_full_soc",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.ev.time_to_full_soc",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2350,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "46fce40f2f5ec6a6",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "e74a2c0a233b7198",
+        "name": "EV Data",
+        "info": "",
+        "x": 2280,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "2688114f322ae2bd",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "312f78a3cedf4ac8",
+        "name": "vsecc.connector2.em.measurement_control",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.em.measurement_control",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.em.measurement_control",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2370,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "10c89ddacd8f6af2",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "312f78a3cedf4ac8",
+        "name": "vsecc.connector2.em.transferred_energy",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.em.transferred_energy",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.em.transferred_energy",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2360,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "219b0f6cb87d679f",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "312f78a3cedf4ac8",
+        "name": "vsecc.connector2.pe.measured_voltage",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.pe.measured_voltage",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.pe.measured_voltage",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2360,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b6ef3cf5ee26edc4",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "312f78a3cedf4ac8",
+        "name": "vsecc.connector2.pe.measured_current",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.pe.measured_current",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.pe.measured_current",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2360,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d2276a26ed7fe5c8",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "312f78a3cedf4ac8",
+        "name": "vsecc.connector2.ocpp.transaction_id",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.ocpp.transaction_id",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.ocpp.transaction_id",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2350,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "72243e59bc64ca6a",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "312f78a3cedf4ac8",
+        "name": "vsecc.connector2.ocpp.ev_authorization_token",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.ocpp.ev_authorization_token",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.ocpp.ev_authorization_token",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2380,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7f5acb16024acabe",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "312f78a3cedf4ac8",
+        "name": "vsecc.connector2.ocpp.cost",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.ocpp.cost",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.ocpp.cost",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2320,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e84e84d0f6781608",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "312f78a3cedf4ac8",
+        "name": "EM ( Energy Meter )",
+        "info": "Energy Meter",
+        "x": 2370,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "5fdda7511f54f284",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "312f78a3cedf4ac8",
+        "name": "PE",
+        "info": "Power electronics",
+        "x": 2330,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "1c2083b40b1d8ae9",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "312f78a3cedf4ac8",
+        "name": "OCPP",
+        "info": "OCPP: Open Charge Point Protocol",
+        "x": 2330,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "edd0bebcc01f4847",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "340749eb4149ea7d",
+        "name": "AC_Contactor_GUN1",
+        "topic": "vsecc/io/d_out/11/value",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 1500,
+        "y": 3720,
+        "wires": []
+    },
+    {
+        "id": "2433a0d995a365f9",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "2580fc718b8b9e74",
+        "name": "Charging_status_GUN1_LED",
+        "topic": "vsecc/io/d_out/15/value",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 1470,
+        "y": 3860,
+        "wires": []
+    },
+    {
+        "id": "9215d608114f8b87",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "340749eb4149ea7d",
+        "name": "DC Contactor 1",
+        "info": "## Safety OPs are handled by the vSECC firmware\n -  Safety OPs are turnede on CP_state C/D\n -  Remaining states its turned OFF",
+        "x": 1460,
+        "y": 3580,
+        "wires": []
+    },
+    {
+        "id": "405c17d21602f090",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "2580fc718b8b9e74",
+        "name": "Fault_status_GUN1_LED ",
+        "topic": "vsecc/io/d_out/13/value",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 1450,
+        "y": 3920,
+        "wires": []
+    },
+    {
+        "id": "a9c48016e13251c4",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "cbb968c43e9de3d4",
+        "name": "MQTT Topics >> Data Structure",
+        "info": " - MQTT Topics >> Data structure\n###  The data coming from MQTT topics of various\n### info such as connector1,connector2,cabinet(ev data, ocpp data,HMI)",
+        "x": 590,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "32b8587bf084b4ab",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "a0e5578e0d714f89",
+        "name": "MQTT Topics >> Data Structure",
+        "info": " - MQTT Topics >> Data structure\n###  The data coming from MQTT topics of various\n### info such as connector1,connector2,cabinet(ev data, ocpp data,HMI)",
+        "x": 1690,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "2f0eaf314b19bb0d",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": " Data Structure / link  >> MQTT Topics ",
+        "info": "",
+        "x": 600,
+        "y": 3540,
+        "wires": []
+    },
+    {
+        "id": "d895f6b2d9f36567",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "2580fc718b8b9e74",
+        "name": "🔴🟢 Charging Status",
+        "info": "",
+        "x": 1460,
+        "y": 3820,
+        "wires": []
+    },
+    {
+        "id": "c748039a958fc27b",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "111cc957e3ecb222",
+        "name": "vsecc.connector1.preview.start_charging_reinit_ev",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.preview.start_charging_reinit_ev",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.preview.start_charging_reinit_ev",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1170,
+        "y": 1420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e3b819d863618ba4",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "111cc957e3ecb222",
+        "name": "vsecc.connector1.preview.external_authorization",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.preview.external_authorization",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.preview.external_authorization",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1160,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "93fe43aa97eb47cc",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "3343ce0fb0f8c8b5",
+        "name": "vsecc.connector2.preview.start_charging_reinit_ev",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.preview.start_charging_reinit_ev",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.preview.start_charging_reinit_ev",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2390,
+        "y": 1420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0850222be17b2d30",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "3343ce0fb0f8c8b5",
+        "name": "vsecc.connector1.preview.external_authorization",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.preview.external_authorization",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.preview.external_authorization",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2380,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7e90be7073d53971",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "326b6bda4eb4d46d",
+        "name": "vsecc.connector1.em.log",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector1.em.log",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector1.em.log",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1110,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8277eae8b37849ec",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "312f78a3cedf4ac8",
+        "name": "vsecc.connector2.em.log",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.connector2.em.log",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.connector2.em.log",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2310,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5e5b80fb26605d2d",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "vSECC general info",
+        "info": "Connector Independent topics",
+        "x": 730,
+        "y": 3000,
+        "wires": []
+    },
+    {
+        "id": "f3b77ef8df082e6f",
+        "type": "switch",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "SECC_gen.topics",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "vsecc/readiness",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/rfid/token",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/authorization_token_status",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/ocpp_connection_status",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/tariff",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/tariff_raw",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/firmware_version",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/display_message_raw",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/config_change",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "vsecc/preview/log_level",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 10,
+        "x": 950,
+        "y": 3020,
+        "wires": [
+            [
+                "b51cc18da429b509"
+            ],
+            [
+                "672ba9a72e9ec14b"
+            ],
+            [
+                "8dcfa9a1719efb87"
+            ],
+            [
+                "55cffa0df8d134ae"
+            ],
+            [
+                "6edb6b5928a78e18"
+            ],
+            [
+                "0135093328177fc4"
+            ],
+            [
+                "1cb691a5a63e60c0"
+            ],
+            [
+                "c3d174620a09291e"
+            ],
+            [
+                "84cc5d2fc546a10c"
+            ],
+            [
+                "88d8222f206705a8"
+            ]
+        ]
+    },
+    {
+        "id": "6bea36a18d232477",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "340749eb4149ea7d",
+        "name": "AC Contactor1",
+        "info": "",
+        "x": 1460,
+        "y": 3680,
+        "wires": []
+    },
+    {
+        "id": "c667104af79cd775",
+        "type": "mqtt in",
+        "z": "e737724fdc61a7cf",
+        "name": "",
+        "topic": "vsecc/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "daddafb0e90e14af",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 780,
+        "wires": [
+            [
+                "acc68933432f2e1a",
+                "229edacae263c3ee",
+                "90f7da7a7ecfa11f"
+            ]
+        ]
+    },
+    {
+        "id": "acc68933432f2e1a",
+        "type": "link out",
+        "z": "e737724fdc61a7cf",
+        "name": "connector1",
+        "mode": "link",
+        "links": [
+            "2a5ab3747c54865f"
+        ],
+        "x": 225,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "229edacae263c3ee",
+        "type": "link out",
+        "z": "e737724fdc61a7cf",
+        "name": "connector2",
+        "mode": "link",
+        "links": [
+            "083b118b0192291c"
+        ],
+        "x": 235,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "90f7da7a7ecfa11f",
+        "type": "link out",
+        "z": "e737724fdc61a7cf",
+        "name": "IOs_and_secc_gen_info",
+        "mode": "link",
+        "links": [
+            "6c128e05574332b6"
+        ],
+        "x": 235,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "2a5ab3747c54865f",
+        "type": "link in",
+        "z": "e737724fdc61a7cf",
+        "g": "cbb968c43e9de3d4",
+        "name": "connector1",
+        "links": [
+            "acc68933432f2e1a"
+        ],
+        "x": 425,
+        "y": 780,
+        "wires": [
+            [
+                "51bc1dd6870ffde8"
+            ]
+        ]
+    },
+    {
+        "id": "083b118b0192291c",
+        "type": "link in",
+        "z": "e737724fdc61a7cf",
+        "g": "a0e5578e0d714f89",
+        "name": "connector2",
+        "links": [
+            "229edacae263c3ee"
+        ],
+        "x": 1615,
+        "y": 780,
+        "wires": [
+            [
+                "151bac03be9df4a5"
+            ]
+        ]
+    },
+    {
+        "id": "6c128e05574332b6",
+        "type": "link in",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "IOs_and_secc_gen_info",
+        "links": [
+            "90f7da7a7ecfa11f"
+        ],
+        "x": 515,
+        "y": 2160,
+        "wires": [
+            [
+                "5a2c61a835bdea60"
+            ]
+        ]
+    },
+    {
+        "id": "ef2eee6299edefd2",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "name": ">> Con1",
+        "info": "",
+        "x": 280,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "857f0a4137fa207d",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "name": ">> Con2",
+        "info": "",
+        "x": 280,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "e370a63386d5f2ae",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "name": ">> IOs & Gen.info",
+        "info": "",
+        "x": 290,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "dd0dd36afe86816d",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "❗❗Connector1",
+        "info": "#  -  Connector1 MQTT Topics\nNote: Context node variables are not configured, reconfirm during development/testing",
+        "x": 550,
+        "y": 3480,
+        "wires": []
+    },
+    {
+        "id": "b51cc18da429b509",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "vsecc.readiness",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.readiness",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.readiness",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1220,
+        "y": 2900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "672ba9a72e9ec14b",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "vsecc.rfid.token",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.rfid.token",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.rfid.token",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1220,
+        "y": 2940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8dcfa9a1719efb87",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "vsecc.authorization_token_status",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.authorization_token_status",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.authorization_token_status",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 2980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "55cffa0df8d134ae",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "vsecc.ocpp_connection_status",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.ocpp_connection_status",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.ocpp_connection_status",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1270,
+        "y": 3020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6edb6b5928a78e18",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "vsecc.tariff",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.tariff",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.tariff",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1210,
+        "y": 3060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0135093328177fc4",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "vsecc.tariff_raw",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.tariff_raw",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.tariff_raw",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1220,
+        "y": 3100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1cb691a5a63e60c0",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "vsecc.firmware_version",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.firmware_version",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.firmware_version",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1250,
+        "y": 3140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c3d174620a09291e",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "vsecc.display_message_raw",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.display_message_raw",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.display_message_raw",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1260,
+        "y": 3180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "84cc5d2fc546a10c",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "vsecc.config_change",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.config_change",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.config_change",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1240,
+        "y": 3220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "88d8222f206705a8",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "vsecc.preview.log_level",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.preview.log_level",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.preview.log_level",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1250,
+        "y": 3260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "92abf1938777e077",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "b756c607da989e3c",
+        "name": "",
+        "topic": "vsecc/connector/1/status/components/report_resolution",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 1460,
+        "y": 4280,
+        "wires": []
+    },
+    {
+        "id": "5525fac4f02f463e",
+        "type": "link in",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "connector1.component_resolution",
+        "links": [],
+        "x": 1135,
+        "y": 4240,
+        "wires": [
+            [
+                "92abf1938777e077"
+            ]
+        ]
+    },
+    {
+        "id": "2fb9c013ed5418a3",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "b756c607da989e3c",
+        "name": "Connector {1} component resolution",
+        "info": "",
+        "x": 1400,
+        "y": 4240,
+        "wires": []
+    },
+    {
+        "id": "7a1b3a0b5435f434",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "0b636e59c1f1677a",
+        "name": "",
+        "topic": "vsecc/connector/1/em/measurement_status",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 1430,
+        "y": 4500,
+        "wires": []
+    },
+    {
+        "id": "cafe57e7c3b26fe2",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "0b636e59c1f1677a",
+        "name": "",
+        "topic": "vsecc/connector/1/em/signed_reading",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 1410,
+        "y": 4560,
+        "wires": []
+    },
+    {
+        "id": "5bc653ae15997a4a",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "0b636e59c1f1677a",
+        "name": "",
+        "topic": "vsecc/connector/1/em/unsigned_reading",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 1420,
+        "y": 4620,
+        "wires": []
+    },
+    {
+        "id": "7662a1865c29e4a3",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "0b636e59c1f1677a",
+        "name": "(💡 Energy Meter1 >> SECC )  & CSMS ☁ via OCPP",
+        "info": " - Send energy meter data to vsecc through MQTT\n - vSECC >> CSMS through OCPP",
+        "x": 1450,
+        "y": 4460,
+        "wires": []
+    },
+    {
+        "id": "2cc833d0671c01ab",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "6f23afe4bda58826",
+        "name": "",
+        "topic": "vsecc/connector/1/em/measurement_status",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 2930,
+        "y": 4480,
+        "wires": []
+    },
+    {
+        "id": "2215ba3f76a15b79",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "6f23afe4bda58826",
+        "name": "",
+        "topic": "vsecc/connector/1/em/signed_reading",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 2910,
+        "y": 4540,
+        "wires": []
+    },
+    {
+        "id": "4da6d19e1ad7e866",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "6f23afe4bda58826",
+        "name": "",
+        "topic": "vsecc/connector/1/em/unsigned_reading",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 2920,
+        "y": 4600,
+        "wires": []
+    },
+    {
+        "id": "f1d02c70e5e00233",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "6f23afe4bda58826",
+        "name": "(💡 Energy Meter1 >> SECC )  & CSMS ☁ via OCPP",
+        "info": " - Send energy meter data to vsecc through MQTT\n - vSECC >> CSMS through OCPP",
+        "x": 2950,
+        "y": 4440,
+        "wires": []
+    },
+    {
+        "id": "2a9d228db97832e1",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "340749eb4149ea7d",
+        "name": "DC_Contactor_GUN1",
+        "topic": "vsecc/io/d_out/9/value",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 1500,
+        "y": 3620,
+        "wires": []
+    },
+    {
+        "id": "8dd46a1d9ca2ceda",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "ON",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "CLOSE",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OFF",
+                "fromt": "str",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OPEN",
+                "fromt": "str",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 3620,
+        "wires": [
+            [
+                "c738275a7044401a"
+            ]
+        ]
+    },
+    {
+        "id": "8049765b1d615e97",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "Add context monitor node / alterna here",
+        "info": "Add context monitor nodes before the change node",
+        "x": 350,
+        "y": 3680,
+        "wires": []
+    },
+    {
+        "id": "b951886dda8a1835",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "Add context monitor node / alterna here",
+        "info": "Add context monitor nodes before the change node",
+        "x": 490,
+        "y": 4240,
+        "wires": []
+    },
+    {
+        "id": "e68f8b1f7211e69f",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "Add context monitor node / alterna here",
+        "info": "Add context monitor nodes before the change node",
+        "x": 430,
+        "y": 4480,
+        "wires": []
+    },
+    {
+        "id": "2d728f0eb0c7755d",
+        "type": "switch",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "main.vsecc.io.d_out.dc_contactor1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "main.vsecc.io.d_out.ac_contactor1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "main.vsecc.io.d_out.charging_status1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "main.vsecc.io.d_out.fault_status1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 650,
+        "y": 3720,
+        "wires": [
+            [
+                "8dd46a1d9ca2ceda"
+            ],
+            [
+                "7549b75ba9a3c019"
+            ],
+            [
+                "95cc95f5abcb6bc4"
+            ],
+            [
+                "dbfd3f69fbf1cff0"
+            ]
+        ]
+    },
+    {
+        "id": "4c9c55f884c3072b",
+        "type": "switch",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "main.vsecc.connector1.em.measurement_status",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "main.vsecc.connector1.em.signed_reading",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "main.vsecc.connector1.em.unsigned_reading",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 690,
+        "y": 4540,
+        "wires": [
+            [
+                "a0ebdeb6d3d4cb78"
+            ],
+            [
+                "9aa8dea6bebab929"
+            ],
+            [
+                "de67bd9e19b4ce1b"
+            ]
+        ]
+    },
+    {
+        "id": "79c50e4190336d39",
+        "type": "link out",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "vsecc.io.d_out",
+        "mode": "link",
+        "links": [
+            "7c07c6a92392c75a"
+        ],
+        "x": 445,
+        "y": 3760,
+        "wires": []
+    },
+    {
+        "id": "074c60de6caa53da",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": " Data Structure / link >> MQTT Topics ",
+        "info": "",
+        "x": 2140,
+        "y": 3540,
+        "wires": []
+    },
+    {
+        "id": "e6455c61ba061e0e",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "81879ab1d790a2c5",
+        "name": "Charging_status_GUN2_LED",
+        "topic": "vsecc/io/d_out/14/value",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 2990,
+        "y": 3920,
+        "wires": []
+    },
+    {
+        "id": "65604f085a265d96",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "81879ab1d790a2c5",
+        "name": "🔴🟢 Charging Status",
+        "info": "",
+        "x": 2980,
+        "y": 3880,
+        "wires": []
+    },
+    {
+        "id": "6a040c3764203535",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "81879ab1d790a2c5",
+        "name": "Fault_status_GUN2_LED ",
+        "topic": "vsecc/io/d_out/12/value",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 2970,
+        "y": 3980,
+        "wires": []
+    },
+    {
+        "id": "4c78f2e7b04baf9d",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "ec413b9174c7a573",
+        "name": "AC_Contactor_GUN2",
+        "topic": "vsecc/io/d_out/10/value",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 3000,
+        "y": 3780,
+        "wires": []
+    },
+    {
+        "id": "ab9e8b65b810bea3",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "ec413b9174c7a573",
+        "name": "AC Contactor2",
+        "info": "",
+        "x": 2960,
+        "y": 3740,
+        "wires": []
+    },
+    {
+        "id": "55640583b3201328",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "ec413b9174c7a573",
+        "name": "DC Contactor2",
+        "info": "## Safety OPs are handled by the vSECC firmware\n -  Safety OPs are turnede on CP_state C/D\n -  Remaining states its turned OFF",
+        "x": 2940,
+        "y": 3640,
+        "wires": []
+    },
+    {
+        "id": "657c7d8115081af4",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "ec413b9174c7a573",
+        "name": "DC_Contactor_GUN2",
+        "topic": "vsecc/io/d_out/8/value",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 3000,
+        "y": 3680,
+        "wires": []
+    },
+    {
+        "id": "a854d36c7ccc0961",
+        "type": "link in",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "connector2.component_resolution",
+        "links": [],
+        "x": 2555,
+        "y": 4360,
+        "wires": [
+            [
+                "83390f03be4858a1"
+            ]
+        ]
+    },
+    {
+        "id": "83390f03be4858a1",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "a5d2489ede77f2d9",
+        "name": "",
+        "topic": "vsecc/connector/2/status/components/report_resolution",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 2920,
+        "y": 4340,
+        "wires": []
+    },
+    {
+        "id": "23a602b23e2ce212",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "a5d2489ede77f2d9",
+        "name": "Connector {2} component resolution",
+        "info": "",
+        "x": 2900,
+        "y": 4300,
+        "wires": []
+    },
+    {
+        "id": "d5b95b150d7a3060",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "Add context monitor node / alterna here",
+        "info": "Add context monitor nodes before the change node",
+        "x": 2070,
+        "y": 3740,
+        "wires": []
+    },
+    {
+        "id": "fdaf2ceb4ef5f096",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "Add context monitor node / alterna here",
+        "info": "Add context monitor nodes before the change node",
+        "x": 2090,
+        "y": 4280,
+        "wires": []
+    },
+    {
+        "id": "6265b784fbed70db",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "Add context monitor node / alterna here",
+        "info": "Add context monitor nodes before the change node",
+        "x": 2090,
+        "y": 4380,
+        "wires": []
+    },
+    {
+        "id": "0c05a98e03efee99",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "❗❗Connector2",
+        "info": "#  -  Connector2 MQTT Topics\nNote: Context node variables are not configured, reconfirm during development/testing",
+        "x": 2070,
+        "y": 3500,
+        "wires": []
+    },
+    {
+        "id": "7c07c6a92392c75a",
+        "type": "link in",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "link in 2",
+        "links": [
+            "79c50e4190336d39"
+        ],
+        "x": 2075,
+        "y": 3800,
+        "wires": [
+            [
+                "0e567cbda861fc73"
+            ]
+        ]
+    },
+    {
+        "id": "0e567cbda861fc73",
+        "type": "switch",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "main.vsecc.io.d_out.dc_contactor2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "main.vsecc.io.d_out.ac_contactor2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "main.vsecc.io.d_out.charging_status2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "main.vsecc.io.d_out.fault_status2",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 2270,
+        "y": 3800,
+        "wires": [
+            [
+                "039a4f19fff07451"
+            ],
+            [
+                "baa155067977360e"
+            ],
+            [
+                "7f9b2a7f6fa9b0cf"
+            ],
+            [
+                "d23eda1afdf0cf4c"
+            ]
+        ]
+    },
+    {
+        "id": "4b7de952c4db4518",
+        "type": "switch",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "main.vsecc.connector2.em.measurement_status",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "main.vsecc.connector2.em.signed_reading",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "main.vsecc.connector2.em.unsigned_reading",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 2310,
+        "y": 4580,
+        "wires": [
+            [
+                "da689d8cc7328ac8"
+            ],
+            [
+                "3de61af08ac7db65"
+            ],
+            [
+                "d3ead86b6de2a15b"
+            ]
+        ]
+    },
+    {
+        "id": "55df09b00658c7ec",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "3454d78d8b232e83",
+        "name": "",
+        "topic": "vsecc/connector/1/status/components/report_failure",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 1450,
+        "y": 4100,
+        "wires": []
+    },
+    {
+        "id": "f8a20270e449a596",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "3454d78d8b232e83",
+        "name": "Connector {1} component report failure",
+        "info": "",
+        "x": 1410,
+        "y": 4060,
+        "wires": []
+    },
+    {
+        "id": "ab932ebf80ad7e48",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "Add context monitor node / alterna here",
+        "info": "Add context monitor nodes before the change node",
+        "x": 490,
+        "y": 4120,
+        "wires": []
+    },
+    {
+        "id": "8a3a602e628ce2e1",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "Add context monitor node / alterna here",
+        "info": "Add context monitor nodes before the change node",
+        "x": 2090,
+        "y": 4160,
+        "wires": []
+    },
+    {
+        "id": "36a565041adb46ef",
+        "type": "mqtt out",
+        "z": "e737724fdc61a7cf",
+        "g": "cd7c3df87bc024fb",
+        "name": "",
+        "topic": "vsecc/connector/2/status/components/report_failure",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "daddafb0e90e14af",
+        "x": 2890,
+        "y": 4160,
+        "wires": []
+    },
+    {
+        "id": "33be1e0e826227bb",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "cd7c3df87bc024fb",
+        "name": "Connector {2} component report failure",
+        "info": "",
+        "x": 2890,
+        "y": 4120,
+        "wires": []
+    },
+    {
+        "id": "7549b75ba9a3c019",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "ON",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "CLOSE",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OFF",
+                "fromt": "str",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OPEN",
+                "fromt": "str",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 3720,
+        "wires": [
+            [
+                "cd68767cdaecac65"
+            ]
+        ]
+    },
+    {
+        "id": "95cc95f5abcb6bc4",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "ON",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OFF",
+                "fromt": "str",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 3860,
+        "wires": [
+            [
+                "a43fe7e20cb02da2"
+            ]
+        ]
+    },
+    {
+        "id": "dbfd3f69fbf1cff0",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "ON",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OFF",
+                "fromt": "str",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 3920,
+        "wires": [
+            [
+                "a9e49f5df71124ad"
+            ]
+        ]
+    },
+    {
+        "id": "b03961ee3dd266bf",
+        "type": "function",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "function 68",
+        "func": "\nmsg = { payload: msg.payload };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 4100,
+        "wires": [
+            [
+                "55df09b00658c7ec"
+            ]
+        ]
+    },
+    {
+        "id": "d727b90653b5fcf4",
+        "type": "function",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "function 69",
+        "func": "\nmsg = { payload: msg.payload };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 4280,
+        "wires": [
+            [
+                "229cc29c9f750175"
+            ]
+        ]
+    },
+    {
+        "id": "a0ebdeb6d3d4cb78",
+        "type": "function",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "function 70",
+        "func": "\nmsg = { payload: msg.payload };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 4500,
+        "wires": [
+            [
+                "186e0f88d29262c5"
+            ]
+        ]
+    },
+    {
+        "id": "9aa8dea6bebab929",
+        "type": "function",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "function 71",
+        "func": "\nmsg = { payload: msg.payload };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 4560,
+        "wires": [
+            [
+                "577454ddfe4245a1"
+            ]
+        ]
+    },
+    {
+        "id": "de67bd9e19b4ce1b",
+        "type": "function",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "function 72",
+        "func": "\nmsg = { payload: msg.payload };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 4620,
+        "wires": [
+            [
+                "8c12bf344f559b92"
+            ]
+        ]
+    },
+    {
+        "id": "039a4f19fff07451",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "ON",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "CLOSE",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OFF",
+                "fromt": "str",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OPEN",
+                "fromt": "str",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2520,
+        "y": 3680,
+        "wires": [
+            [
+                "17e553d34c1719f7"
+            ]
+        ]
+    },
+    {
+        "id": "baa155067977360e",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "ON",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "CLOSE",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OFF",
+                "fromt": "str",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OPEN",
+                "fromt": "str",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2520,
+        "y": 3780,
+        "wires": [
+            [
+                "f8e6d68ffef98c4f"
+            ]
+        ]
+    },
+    {
+        "id": "7f9b2a7f6fa9b0cf",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "ON",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OFF",
+                "fromt": "str",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2520,
+        "y": 3920,
+        "wires": [
+            [
+                "e485f4b074eb7bfd"
+            ]
+        ]
+    },
+    {
+        "id": "d23eda1afdf0cf4c",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "ON",
+                "fromt": "str",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "OFF",
+                "fromt": "str",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2520,
+        "y": 3980,
+        "wires": [
+            [
+                "86eb59b55565247a"
+            ]
+        ]
+    },
+    {
+        "id": "0b2fc63de80b8d8f",
+        "type": "function",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "function 73",
+        "func": "\nmsg = { payload: msg.payload };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2490,
+        "y": 4160,
+        "wires": [
+            [
+                "36a565041adb46ef"
+            ]
+        ]
+    },
+    {
+        "id": "59fa8895b58de295",
+        "type": "function",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "function 74",
+        "func": "\nmsg = { payload: msg.payload };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2450,
+        "y": 4320,
+        "wires": [
+            [
+                "83390f03be4858a1"
+            ]
+        ]
+    },
+    {
+        "id": "da689d8cc7328ac8",
+        "type": "function",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "function 75",
+        "func": "\nmsg = { payload: msg.payload };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2510,
+        "y": 4520,
+        "wires": [
+            [
+                "58d6807caf240490"
+            ]
+        ]
+    },
+    {
+        "id": "3de61af08ac7db65",
+        "type": "function",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "function 76",
+        "func": "\nmsg = { payload: msg.payload };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2510,
+        "y": 4560,
+        "wires": [
+            [
+                "e85ced6b74e46e01"
+            ]
+        ]
+    },
+    {
+        "id": "d3ead86b6de2a15b",
+        "type": "function",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "function 77",
+        "func": "\nmsg = { payload: msg.payload };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2510,
+        "y": 4620,
+        "wires": [
+            [
+                "964940e5566996d0"
+            ]
+        ]
+    },
+    {
+        "id": "b4d9aa5168bba3f1",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "e8353e2fe1a0e43b",
+        "name": "vsecc.io.t_in.gun1_sensor_resistance",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.io.t_in.gun1_sensor_resistance",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.io.t_in.gun1_sensor_resistance",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1870,
+        "y": 2460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "15bdc1351398a22b",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "e8353e2fe1a0e43b",
+        "name": "vsecc.io.t_in.cable1_sensor_resistance",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.io.t_in.cable1_sensor_resistance",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.io.t_in.cable1_sensor_resistance",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1880,
+        "y": 2420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0fafd633b5b410c6",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "e8353e2fe1a0e43b",
+        "name": "vsecc.io.t_in.gun2_sensor_resistance",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.io.t_in.gun2_sensor_resistance",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.io.t_in.gun2_sensor_resistance",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1870,
+        "y": 2340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "03d92f5bb4b6a8f8",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "e8353e2fe1a0e43b",
+        "name": "vsecc.io.t_in.cable2_sensor_resistance",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.io.t_in.cable2_sensor_resistance",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.io.t_in.cable2_sensor_resistance",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1880,
+        "y": 2300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "65e07a60696dfb9d",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "e8353e2fe1a0e43b",
+        "name": "Connector2 (Gun& Cable Ὼ)",
+        "info": "",
+        "x": 1860,
+        "y": 2260,
+        "wires": []
+    },
+    {
+        "id": "fbe2cecf73c2ce3f",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "e8353e2fe1a0e43b",
+        "name": "Connector1 (Gun& Cable Ὼ)",
+        "info": "",
+        "x": 1860,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "60255623f0ad8a0e",
+        "type": "change",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "vsecc.io.t_in.cabinet_sensor_resistance",
+        "rules": [
+            {
+                "t": "set",
+                "p": "main.vsecc.io.t_in.cabinet_sensor_resistance",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "main.vsecc.io.t_in.cabinet_sensor_resistance",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1900,
+        "y": 2160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "95e9d92f0ee55838",
+        "type": "comment",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "Charger Cabinet Sensor Ὼ",
+        "info": "",
+        "x": 1830,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "020f533482cfbdb9",
+        "type": "context-monitor",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "",
+        "monitoring": [
+            {
+                "scope": "global",
+                "key": "main.vsecc.io.d_out"
+            }
+        ],
+        "tostatus": false,
+        "x": 310,
+        "y": 3720,
+        "wires": [
+            [
+                "2d728f0eb0c7755d",
+                "79c50e4190336d39"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "da86dbf769d131e0",
+        "type": "context-monitor",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "",
+        "monitoring": [
+            {
+                "scope": "global",
+                "key": "main.vsecc.connector1.status.components.report_resolution"
+            }
+        ],
+        "tostatus": false,
+        "x": 520,
+        "y": 4280,
+        "wires": [
+            [],
+            [
+                "d727b90653b5fcf4"
+            ]
+        ]
+    },
+    {
+        "id": "9afa72c60a551bf4",
+        "type": "context-monitor",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "",
+        "monitoring": [
+            {
+                "scope": "global",
+                "key": "main.vsecc.connector1.em"
+            }
+        ],
+        "tostatus": false,
+        "x": 490,
+        "y": 4540,
+        "wires": [
+            [],
+            [
+                "4c9c55f884c3072b"
+            ]
+        ]
+    },
+    {
+        "id": "1a1dfcfcdb4b2a94",
+        "type": "context-monitor",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "",
+        "monitoring": [
+            {
+                "scope": "global",
+                "key": "main.vsecc.connector2.status.components.report_resolution"
+            }
+        ],
+        "tostatus": false,
+        "x": 2040,
+        "y": 4320,
+        "wires": [
+            [],
+            [
+                "59fa8895b58de295"
+            ]
+        ]
+    },
+    {
+        "id": "9e543cf663f639bd",
+        "type": "context-monitor",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "",
+        "monitoring": [
+            {
+                "scope": "global",
+                "key": "main.vsecc.connector2.em"
+            }
+        ],
+        "tostatus": false,
+        "x": 2070,
+        "y": 4580,
+        "wires": [
+            [],
+            [
+                "4b7de952c4db4518"
+            ]
+        ]
+    },
+    {
+        "id": "f9708b5b8a0e83ca",
+        "type": "context-monitor",
+        "z": "e737724fdc61a7cf",
+        "g": "f92ff984f0402e5a",
+        "name": "",
+        "monitoring": [
+            {
+                "scope": "global",
+                "key": "main.vsecc.connector1.status.components.report_failure"
+            }
+        ],
+        "tostatus": false,
+        "x": 490,
+        "y": 4160,
+        "wires": [
+            [],
+            [
+                "b03961ee3dd266bf"
+            ]
+        ]
+    },
+    {
+        "id": "9b687d4f343f2a4b",
+        "type": "context-monitor",
+        "z": "e737724fdc61a7cf",
+        "g": "077ae9c42f8bec49",
+        "name": "",
+        "monitoring": [
+            {
+                "scope": "global",
+                "key": "main.vsecc.connector2.status.components.report_failure"
+            }
+        ],
+        "tostatus": false,
+        "x": 2050,
+        "y": 4200,
+        "wires": [
+            [],
+            [
+                "0b2fc63de80b8d8f"
+            ]
+        ]
+    },
+    {
+        "id": "88b4de60bc263055",
+        "type": "debug",
+        "z": "e737724fdc61a7cf",
+        "g": "c9438df407076a32",
+        "name": "debug 170",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2050,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "628366daa4cdf81d",
+        "type": "function",
+        "z": "e737724fdc61a7cf",
+        "g": "bed5aa9b84ab9f21",
+        "name": "vsecc.io.d_in.dc_contactor1_fb",
+        "func": "msg.payload = (msg.payload==0)?\"OPEN\":\"CLOSED\"\nglobal.set(\"main.vsecc.io.d_in.dc_contactor1_fb\", msg.payload);\nnode.status({fill:\"yellow\",shape:\"ring\",text:`${msg.payload}`});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 2540,
+        "wires": [
+            []
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "baf8728ce5a1f000",
+        "type": "function",
+        "z": "e737724fdc61a7cf",
+        "g": "bed5aa9b84ab9f21",
+        "name": "vsecc.io.d_in.dc_contactor1_fb",
+        "func": "msg.payload = (msg.payload==0)?\"OPEN\":\"CLOSED\"\nglobal.set(\"main.vsecc.io.d_in.dc_contactor1_fb\", msg.payload);\nnode.status({fill:\"yellow\",shape:\"ring\",text:`${msg.payload}`});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 2420,
+        "wires": [
+            []
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "18bf5f6ada476a9b",
+        "type": "function",
+        "z": "e737724fdc61a7cf",
+        "g": "bed5aa9b84ab9f21",
+        "name": "vsecc.io.d_in.imd2_fb",
+        "func": "msg.payload = (msg.payload==0)?\"OPEN\":\"CLOSED\"\nglobal.set(\"main.vsecc.io.d_in.imd2_fb\", msg.payload);\nnode.status({fill:\"yellow\",shape:\"ring\",text:`${msg.payload}`});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1280,
+        "y": 2460,
+        "wires": [
+            []
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "63bcb49a57127964",
+        "type": "function",
+        "z": "e737724fdc61a7cf",
+        "g": "bed5aa9b84ab9f21",
+        "name": "vsecc.io.d_in.imd1_fb",
+        "func": "// msg.payload = (msg.payload==0)?\"OPEN\":\"CLOSED\"\nglobal.set(\"main.vsecc.io.d_in.imd1_fb\", msg.payload);\nnode.status({fill:\"yellow\",shape:\"ring\",text:`${msg.payload}`});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1280,
+        "y": 2580,
+        "wires": [
+            []
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "daddafb0e90e14af",
+        "type": "mqtt-broker",
+        "name": "vsecc-mqtt",
+        "broker": "172.17.0.1",
+        "port": "1883",
+        "clientid": "node-red",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
